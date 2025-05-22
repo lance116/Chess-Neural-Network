@@ -464,7 +464,7 @@ def evaluate_board_nn(board_pychess):
     return eval_score
 
 
-use_nn_eval = True
+use_nn_eval = False
 
 def get_piece_color(piece_str):
     if piece_str is None: return None
